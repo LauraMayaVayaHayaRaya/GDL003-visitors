@@ -54,15 +54,15 @@ Los criterios mínimos de aceptación para considerar que has completado este pr
 ### Requerimientos
 
 1. Permitir al usuario visitante registrarse con sus datos personales (Nombre, email, persona a quien visita, empresa a la que representa, fecha de visita, etc..).
-2. El administrador espera contar con un login para poder acceder al dashboard.
+3. El administrador espera contar con un login para poder acceder al dashboard.
 2. A la administradora le interesa tener un dashboard donde pueda ver la información de los visitantes.
 
 ## Hacker edition
 
 * En el formulario de registro, el formulario requerira una fotografia del visitante y el administrador podra verla en en su dashboard.
 * Implementar registros de nuevas empresas en el Coworking.
-* Implementar apartado de registro de usuaios por parte del administrador.
-* Implementar test con un coverage.
+* Implementar apartado de registro de usuarios por parte del administrador.
+* Implementar tests unitarios deben mostrar Coverage
 
 
 ## Anexo: Construyendo un MVP
