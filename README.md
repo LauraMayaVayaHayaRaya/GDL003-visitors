@@ -35,7 +35,7 @@ Para completar este proyecto deberás seguir las siguientes consideraciones:
 
 * Recuerda a nuestras BFFs, [las historias de usuario](http://jmbeas.es/guias/historias-de-usuario/)
 * Limitar el trabajo en progreso. Solo tener una tarea en estado "doing".
-* Enfocarse en alcanzar los avances esperados balanceando entre la funcionalidad y el dieño.
+* Enfocarse en alcanzar los avances esperados balanceando entre la funcionalidad y el diseño.
 
 ### 2. Detalles sobre la implementación
 
@@ -62,7 +62,7 @@ Los criterios mínimos de aceptación para considerar que has completado este pr
 * En el formulario de registro, el formulario requerira una fotografia del visitante y el administrador podra verla en en su dashboard.
 * Implementar registros de nuevas empresas en el Coworking.
 * Implementar apartado de registro de usuaios por parte del administrador.
-* Implementar test con un coverage de 80%.
+* Implementar test con un coverage.
 
 
 ## Anexo: Construyendo un MVP
