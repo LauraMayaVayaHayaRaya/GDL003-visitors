@@ -23,7 +23,9 @@ tienes que desarrollar una versión mínima viable (ver anexo I abajo).
 ## Objetivos de aprendizaje
 
 El objetivo principal de este proyecto es que pongas en práctica todo lo
-aprendido hasta ahora, con foco en la calidad.
+aprendido hasta ahora, pero desde un perspectiva como fullstack.
+
+El Full Stack puede trabajar con un stack de frontend, backend o en conjunto sin importar las dependencias. Así, utilizando stacks completos, y con el conocimiento suficiente.
 
 ## Consideraciones generales
 
@@ -31,31 +33,15 @@ Para completar este proyecto deberás seguir las siguientes consideraciones:
 
 ### 1. Planificación y organización
 
-Planificación inicial
-
-TIPS:
-
 * Recuerda a nuestras BFFs, [las historias de usuario](http://jmbeas.es/guias/historias-de-usuario/)
-* Ten siempre en mente evitar el desperdicio. Por ejemplo: ¿de qué sirve que
-  tengas el prototipo del 100% de un proyecto en Figma (alta definición) si
-  solamente implementas el 50% del proyecto? El otro 50% del prototipo se podría
-  considerar como desperdicio.
 * Limitar el trabajo en progreso. Solo tener una tarea en estado "doing".
-* ¿Estás segura de que quieren seguir invirtiendo más minutos de tu vida (que no
-  volverán) en discutir los colores del logotipo?
-  [Aquí hay algo que te puede ayudar a decidir](https://play.google.com/store/apps/details?id=com.flip.war_daddy.flip_coin).
+* Enfocarse en alcanzar los avances esperados balanceando entre la funcionalidad y el dieño.
 
 ### 2. Detalles sobre la implementación
 
-* La lógica del proyecto debe estar implementada completamente en JavaScript, HTML y CSS.
-* Está permitido usar librerías o frameworks tanto de CSS como de JS, pero no es
-  obligatorio. Elige bien las batallas que quieres luchar.
-* En este proyecto, no contamos con un boilerplate, por lo que deberás definir
-  la estructura de carpetas y archivos que consideres necesaria, puedes guiarte
-  de los proyectos anteriores.
-* Los tests y el setup necesario para ejecutarlos serán hechos enteramente por
-  ti.
-* Guardar la data de los visitantes de forma remota usando Firebase o MongoDB.
+* Está permitido usar librerías o frameworks tanto de CSS como de JS, Elige bien las batallas que quieres luchar.
+* En este proyecto, no contamos con un boilerplate, por lo que deberás definir la estructura de carpetas y archivos que consideres necesaria, puedes guiarte de los proyectos anteriores.
+* Los datos que se generen por los usuarios deben de persistirse.
 
 ### 3. Tiempo
 
@@ -63,49 +49,21 @@ Tendrás 3 sprints para trabajar en este proyecto.
 
 ## Avances esperados
 
-Los criterios mínimos de aceptación para considerar que has completado este
-proyecto son:
+Los criterios mínimos de aceptación para considerar que has completado este proyecto son:
 
-### Diseño
+### Requerimientos
 
-1. Haber realizado y documentado al menos 3 entrevistas con usuarios diferentes.
-
-### Implementación
-
-Tu producto final debe estar desplegado en la web y, como mínimo, debe:
-
-1. Permitir al usuario visitante registrarse con sus datos personales,
-   incluyendo su foto.
-2. Permitir al usuario visitante seleccionar a la persona a quien viene a
-   visitar.
-3. Permitir a la administradora agregar un horario de salida.
-4. Permitir a la administradora agregar nuevo usuarios del coworking.
-5. A la administradora le interesa tener un dashboard de "analíticas" de los
-  visitantes: # de visitantes por día, horarios frecuentes de visita, a quién
-  vienen a visitar, etc.
-6. Notificar a la persona a quien vienen a visitar. Para esto te recomendamos
-   revisar:
-   * Los servicios de [Sendgrid](https://sendgrid.com/)
-   * El [API de Mandrill](https://mandrillapp.com/docs/) para mandar correos de
-     forma automática
-   * El [API de notificaciones de HTML 5](https://developer.mozilla.org/en-US/docs/Web/API/notification)
-7. Permitir al usuario administrador visualizar la data de los visitantes,
-   incluyendo la fecha y hora de registro de cada uno
-8. Los tests unitarios deben mostrar Coverage.
+1. Permitir al usuario visitante registrarse con sus datos personales (Nombre, email, persona a quien visita, empresa a la que representa, fecha de visita, etc..).
+2. El administrador espera contar con un login para poder acceder al dashboard.
+2. A la administradora le interesa tener un dashboard donde pueda ver la información de los visitantes.
 
 ## Hacker edition
 
-Features/características extra sugeridas:
+* En el formulario de registro, el formulario requerira una fotografia del visitante y el administrador podra verla en en su dashboard.
+* Implementar registros de nuevas empresas en el Coworking.
+* Implementar apartado de registro de usuaios por parte del administrador.
+* Implementar test con un coverage de 80%.
 
-* Como el WiFi a veces es nuestro peor enemigo, ¿es posible que tu aplicación
-  pueda, sin Internet, registrar los datos del visitante, guardar los datos
-  localmente y cuando tenga Internet mandarlos a la base de datos? Si te animas
-  a hacer esto dale una revisada a los siguientes recursos:
-  * [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
-  * [Offline first manifesto](http://offlinefirst.org/)
-* También sería ideal poder registrar la firma del visitante en el registro.
-* Sería genial también permitir generar un "pase" para el visitante, así
-  fácilmente a la vista se sabe quién está de visita.
 
 ## Anexo: Construyendo un MVP
 
