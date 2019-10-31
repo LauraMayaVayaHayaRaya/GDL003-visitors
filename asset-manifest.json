@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/GDL003-visitors/static/css/main.20c9aa09.chunk.css",
+    "main.js": "/GDL003-visitors/static/js/main.14a90efe.chunk.js",
+    "main.js.map": "/GDL003-visitors/static/js/main.14a90efe.chunk.js.map",
+    "runtime-main.js": "/GDL003-visitors/static/js/runtime-main.4f0b4fc8.js",
+    "runtime-main.js.map": "/GDL003-visitors/static/js/runtime-main.4f0b4fc8.js.map",
+    "static/js/2.6d69efaa.chunk.js": "/GDL003-visitors/static/js/2.6d69efaa.chunk.js",
+    "static/js/2.6d69efaa.chunk.js.map": "/GDL003-visitors/static/js/2.6d69efaa.chunk.js.map",
+    "index.html": "/GDL003-visitors/index.html",
+    "precache-manifest.b1f8fc680d345df0fb199426e83adb40.js": "/GDL003-visitors/precache-manifest.b1f8fc680d345df0fb199426e83adb40.js",
+    "service-worker.js": "/GDL003-visitors/service-worker.js",
+    "static/css/main.20c9aa09.chunk.css.map": "/GDL003-visitors/static/css/main.20c9aa09.chunk.css.map",
+    "static/media/Qr.css": "/GDL003-visitors/static/media/checked.436ad3bb.gif",
+    "static/media/App.css": "/GDL003-visitors/static/media/visitors-background.2ba0d80b.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f0b4fc8.js",
+    "static/js/2.6d69efaa.chunk.js",
+    "static/css/main.20c9aa09.chunk.css",
+    "static/js/main.14a90efe.chunk.js"
+  ]
+}
