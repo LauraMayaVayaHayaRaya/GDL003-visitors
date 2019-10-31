@@ -1,0 +1,98 @@
+body {
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab);
+  background: linear-gradient(to top, #eef2f3, #8e9eab);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.App-mainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./img/visitors-background.jpeg);
+  background-size: cover;
+  padding: 100px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.menuButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.menuButtons a {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #666;
+  background-color: #000;
+}
+
+.App-body {
+  flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-mainPage {
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab);
+  background: linear-gradient(to top, #eef2f3, #8e9eab);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header {
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+.App-body {
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+  background: url(./img/visitors-background.jpeg);
+}
+
+.App-footer {
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+}*/
